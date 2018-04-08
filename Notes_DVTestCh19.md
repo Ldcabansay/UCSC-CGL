@@ -71,7 +71,7 @@ mkdir -p "${MODELS_DIR}"
 
 ## Run Make Examples
 If you want to run DeepVariant only on a select region, such as a specific chromosome, use flag `--regions chr#` (see DeepVariant docs for other different region syntax)
-Screen to run make examples using defined preliminaries above.
+To run make examples using defined preliminaries above:
 
 ```
 ( time seq 0 $((N_SHARDS-1)) | \
