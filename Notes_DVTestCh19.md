@@ -50,7 +50,7 @@ OUTPUT_VCF="${OUTPUT_DIR}/chr19_NA12878_S1.output.vcf.gz"
 LOG_DIR="${OUTPUT_DIR}/logs"
 ```
 
-Create Local Director Structure:
+Create Local Directory Structure:
 
 if using the same bin and model directories from case-study, you shouldn't need to make new ones, just make sure bash script points to correct locations. Only need:
 
