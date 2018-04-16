@@ -50,7 +50,7 @@ OUTPUT_VCF="${OUTPUT_DIR}/chr19_NA12878_S1.output.vcf.gz"
 LOG_DIR="${OUTPUT_DIR}/logs"
 ```
 
-Create Local Director Structure:
+Create Local Directory Structure:
 
 if using the same bin and model directories from case-study, you shouldn't need to make new ones, just make sure bash script points to correct locations. Only need:
 
@@ -71,7 +71,7 @@ mkdir -p "${MODELS_DIR}"
 
 ## Run Make Examples
 If you want to run DeepVariant only on a select region, such as a specific chromosome, use flag `--regions chr#` (see DeepVariant docs for other different region syntax)
-Screen to run make examples using defined preliminaries above.
+To run make examples using defined preliminaries above:
 
 ```
 ( time seq 0 $((N_SHARDS-1)) | \
